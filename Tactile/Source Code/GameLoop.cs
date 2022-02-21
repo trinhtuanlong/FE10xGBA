@@ -451,9 +451,9 @@ namespace Tactile
             if (HYPER_SPEED_ENABLED)
             {
 #if DEBUG
-                if (loopKeyState.IsKeyDown(Keys.Space) || loopPadState.IsButtonDown(Buttons.RightTrigger))
+                if (loopKeyState.IsKeyDown(Keys.S) || loopPadState.IsButtonDown(Buttons.RightTrigger))
 #else
-                if (loopKeyState.IsKeyDown(Keys.Space))
+                if (loopKeyState.IsKeyDown(Keys.S))
 #endif
                     return true;
             }
